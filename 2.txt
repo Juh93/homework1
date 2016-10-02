@@ -1,0 +1,1 @@
+cat "file.txt" |perl -e '$MB = 1048576;$count=0;$count1mb=0;while(<>){$count++;@F = split(";",$_);if($F[4] > $MB){$count1mb++;print $F[8]}};print "All files: ".$count."      Files > 1mb: ".$count1mb."\n"'

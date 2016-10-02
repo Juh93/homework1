@@ -1,0 +1,23 @@
+l
+b 8
+w @arr
+c
+c
+c
+c
+c
+c
+c
+c
+$arr[5][8] = 'This variable was changed !!!'
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+R

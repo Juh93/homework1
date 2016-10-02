@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+use DDP;
+use Data::Dumper;
+use strict;
+use warnings;
+
+my @arr = ();
+open(FFF, '< file.txt');
+while(<FFF>){
+push(@arr,[split(";",$_)])};
+p @arr;
+print Dumper(@arr);
+close FFF

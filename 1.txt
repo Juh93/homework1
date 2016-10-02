@@ -1,0 +1,1 @@
+ls -l|perl -lnae 'open(FFF,">> file.txt");$LNG = $#F+1;if(index($_, ";") == -1 & $LNG >= 9){$_="";for($i=0; $i<$LNG; $i++){if($i < 8){  $_ = $_.$F[$i].";"}else{$_ = $_.$F[$i]." "}};print (FFF $_);}close FFF'
